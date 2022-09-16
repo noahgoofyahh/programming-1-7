@@ -6,15 +6,15 @@ class ktools:
     """Shorthand for Move"""
     move()
 
-def tl(self):
+  def tl(self):
     """turn_left"""
     turn_left()
 
-def tr(self):
-  """Turn Right"""
-  self.tl()
-  self.tl()
-  self.tl()
+  def tr(self):
+    """turn right"""
+    self.tl()
+    self.tl()
+    self.tl()
   
   def ta(self):
     """turn around"""
@@ -37,8 +37,8 @@ def tr(self):
     
   def put5(self):
     """put 5 beepers in a line"""
-   self.put2()
-   self.m()
+    self.put2()
+    self.m()
     self.put2()
     self.m()
     self.put()
@@ -68,7 +68,7 @@ def tr(self):
     self.m()
     self.m()
     
-  def s(self):
+  def e(self):
     """print E using beepers"""
     self.tl()
     self.put5()
@@ -78,14 +78,69 @@ def tr(self):
     self.tr()
     self.m()
     self.m()
+    self.tr()
+    self.put2()
+    self.tl()
+    self.m()
+    self.m()
+    self.tl()
+    self.put2()
+    self.m()
+    self.m()
+
+  def l(self):
+    """print L using beepers"""
+    self.tl()
+    self.put5()
+    self.tl()
+    self.tl()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.tl()
+    self.m()
+    self.put2()
+    self.m()
+    self.m()
+
+  def o(self):
+    """print O using beepers"""
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put2()
+    self.m()
+    self.tr()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put2()
+    self.m()
+    self.m()
     
+
+
 
 
 
 def main():
     """ Karel code goes here! """
-    kt = ktools()
+    move()
+    turn_left()
+    move()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
   
+    kt = ktools()
+    kt.h()
+    kt.e()
+    kt.l()
+    kt.l()
+    kt.o()
     pass
 
 
