@@ -67,7 +67,7 @@ class ktools:
     self.m()
     self.m()
     self.m()
-
+  
   def fic(self) -> bool:
     """Front is Clear"""
     return front_is_clear()
@@ -132,7 +132,7 @@ def main():
     kt.putm(5)
     kt.tl()
     kt.mm(2)
-
+    
     
 
   
