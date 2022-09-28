@@ -162,13 +162,66 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-  
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
     
-    
-
   
-  
-    pass
+pass
 
 
 if __name__ == "__main__":
